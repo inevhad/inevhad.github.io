@@ -1,1 +1,15 @@
 /*main css*/
+
+nav {
+  background-color: #ADE5E7;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 20px;
+  display: inline;
+}
+
+nav ul {
+  display: inline;
+}
