@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <title>My Square Visions</title>
+    <link rel="icon" href="tinypp1.png" type="image/png">
+    <!-- example 1
+    <script type="text/javascript">
+        function Warn() {
+            alert ("Wrong input");
+            document.write ("Please check your data input");
+        }
+    </script>  -->
+    
+    <!-- example 2 -->
+    <script type="text/javascript">             
+        function getConfirmation() {
+            var retVal = confirm("Do you want to continue ?");
+            if (retVal == true) {
+                document.write("User wants to continue!");
+                return true;
+            }
+            else {
+                document.write("User does not want to continue!");
+                return false;
+            }
+    </script> 
+   
+    <!-- example 3 
+    <script type="text/javascript">        
+        function getValue(){                
+        var retVal = prompt("Enter your name : ", "your name here");                
+        document.write("You have entered : " + retVal);             }          
+    </script> -->
+</head>
+    
+<body>
+    <h1>My Square Vision</h1>
+    <nav>
+        <ul>
+            <li>Human</li>
+            <li>Nature</li>
+            <li>Food</li>
+            <li>Cityscape</li>
+            <li>Landscape</li>
+        </ul>
+    </nav>
+    <!--    <script type="text/javascript">
+        window.alert("Hello I am Learning JavaScript")//JavaScript goes here
+    </script>
+
+    <script src="popup.js"
+     type="text/javascript"></script>
+-->
+    <br> <a href="login.html">Login</a>
+    <br>
+    <!-- ex 1 
+    <form>
+    <input type="button" value="Submit" onclick="Warn();">
+    </form> -->
+    
+    <!-- ex 2 -->
+    <form>
+        <input type="button" value="Click Me" onclick="getConfirmation();" /> 
+    </form> 
+    
+    <!-- ex 3 
+    <form>          
+        <input type="button" value="Hit me" onclick="getValue();" />      
+    </form> -->
+    
+    
+</body>
+
+</html>
