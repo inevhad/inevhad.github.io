@@ -1,0 +1,20 @@
+.portfolio-box {
+    padding: 0;
+}
+
+header .header-content {
+  text-align: center;
+  padding: 200px 15px 100px;
+  width: 100%;
+}
+header .header-content .header-content-inner p {
+  font-family: "Goudy Old Style", Cambria;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 30px;
+  margin-top: 20px;
+}
+.portfolio-box {
+  margin: 0;
+    padding: 0;
+}
