@@ -9,12 +9,18 @@ header .header-content {
   max-width: 100%;
   height: auto;
 }
+img.respond {
+  max-width: 100%;
+  height: auto;
+}
 header .header-content .header-content-inner p {
   font-family: "Goudy Old Style", Cambria;  
   font-weight: 400;
   color: rgba(255, 255, 255, 0.7);
   font-size: 30px;
   margin-top: 20px;
+  max-width: 100%;
+  height: auto;
 }
 .portfolio-box {
   margin: 0;
