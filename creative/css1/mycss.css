@@ -43,5 +43,13 @@ header .header-content .header-content-inner p {
   background-color: #151515;
 }
 #contact {
-  background-color: #2b2b2b;
+  background-color: #a3a3a3;
+}
+.h2, h2 {
+    font-size: 30px;
+    color: white;
+}
+.h3, h3 {
+    font-size: 24px;
+    color: #ffcc99;
 }
