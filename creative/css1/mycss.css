@@ -39,7 +39,7 @@ header .header-content .header-content-inner p {
   margin-right: -15px;
   padding-left: -15px;
   padding-right: -15px;
-}
+  }
 #services {
   background-color: #151515;
 }
@@ -56,4 +56,7 @@ header .header-content .header-content-inner p {
 }
 .mybox {
     padding: 0 0 0;
+}
+#mainNavbar {
+    border-bottom: none;
 }
