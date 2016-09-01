@@ -33,6 +33,7 @@ header .header-content .header-content-inner p {
   margin: 0;
   padding: 0;
   max-width: 900px;
+  border-style: none;
 }
 .container-fluid {
   margin-left: -15px;
@@ -59,4 +60,7 @@ header .header-content .header-content-inner p {
 .h3, h3 {
     font-size: 24px;
     color: #ffcc99;
+}
+.mybox {
+    padding: 0 0 0;
 }
