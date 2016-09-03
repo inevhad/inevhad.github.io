@@ -27,9 +27,9 @@
             <div class="navbar-header">
                 <a class="navbar-brand" href="index.html">ONE TO ONE PROJECT</a> 
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
+            <!-- <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown">CATEGORY<span class="caret"></span></a>
+                    <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">CATEGORY<span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="animal.html">Animal</a></li>
                             <li><a href="architecture.html">Architecture</a></li>
@@ -38,7 +38,31 @@
                             <li><a href="human.html">Human</a></li>
                             <li><a href="nature.html">Nature</a></li>
                         </ul>
+                    </li> -->
+                    
+                    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
+                <ul class="nav">
+                    <a class="brand" href="#">w3resource</a>
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li class="dropdown" id="accountmenu">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tutorials<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">PHP</a></li>
+                            <li><a href="#">MySQL</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">HTML5</a></li>
+                        </ul>
                     </li>
+                </ul>
+            </div>
+        </div>
+    </div>
                     <!-- <li class="dropdown">
   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
     Dropdown
@@ -555,6 +579,11 @@
             </script>
             <script src="jquery/jquery.js"></script>
             <script src="vendor/bootstrap/js/bootstrap.js"></script>
+            <script type="text/javascript">
+        $(document).ready(function () {
+            $('.dropdown-toggle').dropdown();
+        });
+   </script>
         </div>
     </aside>
     <!-- #endregion Jssor Slider End -->
