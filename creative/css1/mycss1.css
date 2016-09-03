@@ -9,3 +9,6 @@
     width: 70px;
     height: 70px;
 }
+element.style {
+    max-width: 100%;
+}
