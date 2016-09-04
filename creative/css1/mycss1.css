@@ -18,8 +18,8 @@
     width: 70px;
     height: 70px;
 }
-div.container {
-    left: -15px;
+.container {
+    padding: 0 0 0;
 }
 
 
