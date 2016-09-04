@@ -16,3 +16,8 @@
 element.style {
     max-width: 100%;
 }
+.open > .dropdown-toggle.btn-default {
+  color: #ee4b28;
+  background-color: #f2f2f2;
+  border-color: #ededed;
+}
