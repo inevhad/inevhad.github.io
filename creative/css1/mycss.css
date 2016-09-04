@@ -8,7 +8,9 @@
 .portfolio-box {
     padding: 0;
 }
-
+.navbar-default {
+    opacity: 0.9;
+    }
 header .header-content {
   text-align: center;
   padding: 200px 15px 100px;
