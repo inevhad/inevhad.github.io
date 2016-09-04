@@ -1,13 +1,14 @@
-.navbar-default {
-    background-color: #bababa;
-    border-color: transparent;
-    }
-.navbar-default .navbar-header .navbar-brand {
-    color: #F05F40;
-}
 .navbar-default.affix {
     background-color: black;
     opacity: 0.9;
+}
+.navbar-default {
+    background-color: #bababa;
+    border-color: transparent;
+    opacity: 0.9;
+    }
+.navbar-default .navbar-header .navbar-brand {
+    color: #F05F40;
 }
 .jssort01-99-66 {
     max-width: 100%;
@@ -17,6 +18,7 @@
     width: 70px;
     height: 70px;
 }
-element.style {
-    max-width: 100%;
+.container {
+    padding-left: -15px;
 }
+
