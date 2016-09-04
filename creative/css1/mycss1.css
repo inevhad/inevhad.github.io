@@ -18,9 +18,8 @@
     width: 70px;
     height: 70px;
 }
-@media (min-width: 700px) {
-  .container {
-    max-width: 100%;
+div.container {
+    left: -15px;
 }
-  }
+
 
