@@ -19,6 +19,6 @@
     height: 70px;
 }
 .container {
-    margin-left: 60px;
+    max-width: 100%;
 }
 
